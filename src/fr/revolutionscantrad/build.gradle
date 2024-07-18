@@ -1,0 +1,9 @@
+ext {
+    extName = 'Revolution Scantrad'
+    extClass = '.RevolutionScantrad'
+    themePkg = 'mangathemesia'
+    baseUrl = 'https://revolutionscantrad.com/'
+    overrideVersionCode = 0
+}
+
+apply from: "$rootDir/common.gradle"
